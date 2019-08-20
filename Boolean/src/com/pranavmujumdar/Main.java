@@ -13,5 +13,12 @@ public class Main {
 
         System.out.println(myChar);
         System.out.println(myUnicodeChar);
+
+        //Boolean
+        // boolean can store only two values, true false,
+        // use of boolean will be mostly like this "isCustomerOverTwentyOne", "isTheBlockRed"
+        boolean myTrueBooleanValue = true;
+        boolean myFalseBooleanValue = false;
+
     }
 }
