@@ -50,18 +50,22 @@ public class Main {
         }
 
         //use of <,>,<=,>=
-        //logical and is && single & is called "bitwise &" rarely used 
-        //logical or is ||
-        int score = 69;
+        /*  logical and is && single & is called "bitwise &" rarely used both the conditions have to be true
+            logical or is || only one of the condition to be true
+            it is good practice to put all the condition in parenthesis when using multiple conditions good readability
+         */
+        int score = 101;
         if(score==100){
             System.out.println("Top score!");
         }
-        else if(score<100&&score>=85){
+        else if((score<100) && (score>=85)){
             System.out.println("High Performer");
         }
-        else if(score<85&&score>=70){
+        else if((score<85) && (score>=70)){
             System.out.println("Good Perfomer");
         }
+        else if(score>100 || score <0)
+            System.out.println("invalid score");
         else {
             System.out.println("failed");
         }
