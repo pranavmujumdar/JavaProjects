@@ -41,7 +41,13 @@ public class Main {
         System.out.println(result);
 
 
+        //the use of ==
+        boolean isBoy = false; //use small case to assign true or false values
 
+        if(isBoy == false){ // we can also use !isBoy but baby steps!
+                            // the == is the equality operator it matches the values
+            System.out.println("Congratulations It's a Girl!");
+        }
 
     }
 }
