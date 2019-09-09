@@ -49,5 +49,21 @@ public class Main {
             System.out.println("Congratulations It's a Girl!");
         }
 
+        //use of <,>,<=,>=
+        //logical and is && single & is called "bitwise &" rarely used 
+        //logical or is ||
+        int score = 69;
+        if(score==100){
+            System.out.println("Top score!");
+        }
+        else if(score<100&&score>=85){
+            System.out.println("High Performer");
+        }
+        else if(score<85&&score>=70){
+            System.out.println("Good Perfomer");
+        }
+        else {
+            System.out.println("failed");
+        }
     }
 }
